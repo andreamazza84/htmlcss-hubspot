@@ -73,6 +73,11 @@ body{
 /* /UTILITY */
 
 /* HEADER */
+header{
+  font-size: 15px;
+  line-height: 15px;
+}
+
 .sct1h {
   width: 100%;
   height: 80px;
@@ -80,20 +85,59 @@ body{
 }
 
 .sct1h .menu{
-  position: relative;
   height: 100%;
 }
 
+/* LEFT MENU */
 .sct1h .left_menu{
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
+  margin-top: calc((80px - 15px)/2);
 }
 
-.sct1h .left_menu span{
+.sct1h .left_menu span, .sct1h .left_menu a {
   /* list-style-type: none; */
   margin: 0 15px 0 15px;
 }
 .sct1h .left_menu a{
   text-decoration: none;
+  color: #33475b;
+}
+#vert_bar{
+  font-size: 20px;
+}
+
+
+/* /LEFT MENU */
+
+.orange_btn{
+  background-color: #fe775a;
+  border: 1px solid #fe775a;
+  padding: 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  color: white !important;
+}
+
+.white_btn{
+  background-color: white;
+  border: 1px solid #fe775a;
+  padding: 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fe775a !important;
+}
+
+#lent_icon{
+  color: #00b9a9;
+  
+}
+
+}
+.sct1h .right_menu{
+  margin-top: calc((80px - 15px)/2);
+}
+
+.sct1h .right_menu a{
+  color: #33475b;
+  text-decoration: none;
+  margin: 0 15px 0 15px;
 }
