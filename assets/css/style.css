@@ -17,6 +17,9 @@ body{
 .col25{
   width: 25%;
 }
+.col33{
+  width: 33.33%;
+}
 .col50{
   width: 50%;
 }
@@ -113,7 +116,7 @@ header{
   background-color: #fe775a;
   border: 1px solid #fe775a;
   padding: 10px;
-  border-radius: 3px;
+  border-radius: 4px;
   text-decoration: none;
   color: white !important;
 }
@@ -121,7 +124,7 @@ header{
   background-color: white;
   border: 1px solid #fe775a;
   padding: 10px;
-  border-radius: 3px;
+  border-radius: 4px;
   text-decoration: none;
   color: #fe775a !important;
 }
@@ -250,26 +253,28 @@ header{
   padding: 5% 5%;
 }
 .sct4m .left_box{
-  width: 30%;
+  width: 35%;
   height: 100%;
 }
 .sct4m .right_box{
-  width: 70%;
+  width: 65%;
   height: 100%;
 }
-.box_style .left_box .orange_btn{
+.box_style .orange_btn{
   display: inline-block;
   padding: 20px 30px;
-  margin-top: 20px;
 }
-.box_style .left_box .orange_btn a{
+.sct4m .orange_btn{
+  margin-top: 40px;
+}
+.box_style .orange_btn a{
   color: white;
   text-transform: capitalize;
 }
-.box_style .right_box h3{
+.box_style h3{
   font-size: 30px;
 }
-.box_style .right_box p{
+.box_style p{
   font-size: 15px;
   line-height: 2;
   margin-top: 30px;
@@ -278,12 +283,13 @@ header{
   display: inline-block;
   text-transform: uppercase;
   margin-top: 20px;
+  font-size: 20px;
   font-weight: bold;
 }
 .sct4m .right_box .right_box{
   display: inline-block;
   text-align: right;
-  width: 65%;
+  width: 60%;
 }
 .sct4m .right_box .right_box hr{
   margin-left: 5%;
@@ -301,3 +307,52 @@ header{
 .sct4m .right_box i{
 color: #fe775a;
 }
+/* /SECTION 4 */
+/* SECTION 5 */
+.sct5m{
+  width: 100%;
+  height: 700px;
+  background-color: #f4f9fd;
+  color: #33475b;
+}
+.sct5m .col33{
+  background-color: white;
+  height: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  padding: 25px;
+}
+.sct5m .img_box{
+  height: 120px;
+  text-align: center;
+}
+.sct5m h3, .sct5m label{
+  text-transform: capitalize;
+}
+.sct5m hr{
+  border-top: 1px solid;
+  border-bottom: 0;
+  margin-top: 40px;
+}
+.sct5m .capital{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  font-weight: bold;
+}
+.sct5m ul{
+  margin-top: 30px;
+}
+.sct5m ul li{
+  list-style-type: none;
+  text-align: left;
+}
+.sct5m ul li i{
+  color: #f5775a;
+  margin-right: 10px;
+}
+.sct5m .orange_btn{
+  margin-top: 50px;
+}
+/* /SECTION 5 */
