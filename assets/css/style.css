@@ -213,10 +213,12 @@ header{
 /* /SECTION 2 */
 
 /* SECTION 3 */
+.box_style{}
 .sct3m{
   height: 420px;
   background-color: #f4f9fd;
   text-align: center;
+  color: #33475b;
 }
 .sct3m .container{
   background-color: #f4f9fd;
@@ -229,12 +231,10 @@ header{
   font-size: 30px;
   font-weight: bold;
   text-transform: capitalize;
-  color: #33475b;
 }
 .sct3m p{
   font-size: 15px;
   line-height: 2;
-  color: #33475b;
   margin-top: 30px;
 }
 /* /SECTION 3 */
@@ -242,11 +242,13 @@ header{
 /* SECTION 4 */
 .sct4m{
   height: 320px;
+  color: #33475b;
+  background-color: #f4f9fd;
 }
 .sct4m .container{
+  background-color: white;
   padding: 5% 5%;
 }
-
 .sct4m .left_box{
   width: 30%;
   height: 100%;
@@ -255,12 +257,47 @@ header{
   width: 70%;
   height: 100%;
 }
-.sct4m .left_box .orange_btn{
+.box_style .left_box .orange_btn{
   display: inline-block;
   padding: 20px 30px;
   margin-top: 20px;
 }
-.sct4m .left_box .orange_btn a{
+.box_style .left_box .orange_btn a{
   color: white;
   text-transform: capitalize;
+}
+.box_style .right_box h3{
+  font-size: 30px;
+}
+.box_style .right_box p{
+  font-size: 15px;
+  line-height: 2;
+  margin-top: 30px;
+}
+.sct4m .right_box .left_box{
+  display: inline-block;
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.sct4m .right_box .right_box{
+  display: inline-block;
+  text-align: right;
+  width: 65%;
+}
+.sct4m .right_box .right_box hr{
+  margin-left: 5%;
+  width: 90%;
+  border-top: 1px solid;
+  border-bottom: none;
+  margin-bottom: 5px;
+}
+.sct4m .right_box i, .sct4m .right_box label{
+  display: inline-block;
+  margin-top: 30px;
+  margin-right: 20px;
+  text-transform: capitalize;
+}
+.sct4m .right_box i{
+color: #fe775a;
 }
