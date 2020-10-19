@@ -10,7 +10,7 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 .container{
-  width: 80%;
+  width: 70%;
   margin: auto;
 }
 .col25{
@@ -44,7 +44,7 @@ body{
 }
 
 .bg_white{
-  background-color: #fff2ef;
+  background-color: #fdf4ee;
 }
 
 .bg_lt_grey{
@@ -151,7 +151,7 @@ header{
 }
 /* LEFT MENU */
 #logo{
-  margin-top: 25px;
+  margin-top: calc((80px - 30px)/2);
 }
 
 /* RIGHT MENU */
@@ -164,5 +164,49 @@ header{
 .sct2h .right_menu span a{
   text-decoration: none;
   margin-left: 15px;
-
 }
+/* /RIGHT MENU */
+
+/* MAIN */
+/* SECTION 1 */
+.sct1m{
+  font-size: 15px;
+  height: 695px;
+  background-image: url(../img/jumbotron.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: 100% 138%;
+}
+.sct1m .left_menu{
+  margin-top: 30px;
+  color: #33475b;
+}
+.sct1m .left_menu h2{
+  font-size: 45px;
+  margin-top: 30px;
+}
+.sct1m .left_menu p{
+  margin-top: 30px;
+  line-height: 1.5;
+}
+.sct1m .left_menu .orange_btn{
+  padding: 20px 30px;
+  margin-top: 30px;
+}
+.sct1m .left_menu div{
+  display: inline-block;
+  margin-top: 30px;
+}
+.sct1m .left_menu div a{
+  color: white;
+}
+/* /SECTION 1 */
+
+/* SECTION 2 */
+.sct2m{
+  height: 80px;
+  background-color: #afebe4;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+/* /SECTION 2 */
