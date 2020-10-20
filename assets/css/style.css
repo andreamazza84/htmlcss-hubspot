@@ -10,18 +10,24 @@ body{
   font-family: 'Roboto', sans-serif;
   min-width: 1400px;
 }
-.container{
-  width: 70%;
-  margin: auto;
-}
 .col25{
   width: 25%;
 }
 .col33{
   width: 33.33%;
 }
+.col40{
+  width: 40%;
+}
 .col50{
   width: 50%;
+}
+.col60{
+  width: 60%;
+}
+.container{
+  width: 70%;
+  margin: auto;
 }
 .fix{
   content: "";
@@ -34,11 +40,11 @@ body{
 .fr{
   float: right;
 }
-.pd20{
-  padding: 20px;
-}
 .mr20{
   margin: 20px;
+}
+.pd20{
+  padding: 20px;
 }
 .abs{
   position: absolute;
@@ -46,31 +52,24 @@ body{
 .rel{
   position: relative;
 }
-
 .bg_white{
   background-color: #fdf4ee;
 }
-
 .bg_lt_grey{
   background-color: #f4f9fd;
 }
-
 .bg_orange{
   background-color: #fe775a;
 }
-
 .bg_lt_blue{
   background-color: #afebe4;
 }
-
 .bg_blue{
   background-color: #00b9a9;
 }
-
 .bg_dark_blue{
   background-color: #32495b;
 }
-
 .font_blue{
   color: #33475b;
 }
@@ -386,10 +385,10 @@ color: #fe775a;
   margin: auto;
   margin-top: 0;
 }
-.sheet:nth-of-type(1n+2) {
+.sct6m .sheet:nth-of-type(1n+2) {
   border-left: 1px solid white;
 }
-.sheet{
+.sct6m .sheet{
   padding: 30px;
   text-align: center;
 }
@@ -421,3 +420,49 @@ color: #fe775a;
 }
 /* /sct6 table */
 /* /SECTION 6 */
+
+/* SECTION 7 */
+.sct7m{
+  height: 670px;
+  width: 100%;
+  background-color: #fcfcfc;
+  color: #33475b;
+}
+.sct7m .top_row{
+  width: 100%;
+  height: 100%;
+}
+.sct7m .top_row .col40{
+  height: 100%;
+  margin-top: 50px;
+}
+.sct7m .top_row h2, .sct7m .top_row p{
+  padding-left: 60px;
+  width: 62.5%;
+}
+.sct7m .top_row h2{
+  font-size: 50px;
+}
+.sct7m .top_row p{
+  margin-top: 40px;
+  font-size: 15px;
+  line-height: 2;
+}
+.sct7m .top_row .col60{
+  height: 100%;
+  margin-top: 50px;
+}
+.sct7m .col60 .col25:nth-of-type(1n+2){
+ padding-left: 20px;
+}
+.sct7m .col60 .col25{
+  height: 100px;
+}
+.sct7m .col60 .col25 img{
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+.sct7m .col60 .col25 .special_img{
+  margin-top: 8px;
+}
