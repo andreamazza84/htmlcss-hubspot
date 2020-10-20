@@ -112,19 +112,21 @@ header{
 
 /* RIGHT MENU */
 .orange_btn{
+  display: inline-block;
   background-color: #fe775a;
   border: 1px solid #fe775a;
   padding: 10px;
   border-radius: 4px;
-  text-decoration: none;
+  text-decoration: none !important;
   color: white !important;
 }
 .white_btn{
+  display: inline-block;
   background-color: white;
   border: 1px solid #fe775a;
   padding: 10px;
   border-radius: 4px;
-  text-decoration: none;
+  text-decoration: none !important;
   color: #fe775a !important;
 }
 #lent_icon{
@@ -423,7 +425,7 @@ color: #fe775a;
 
 /* SECTION 7 */
 .sct7m{
-  height: 670px;
+  height: 700px;
   width: 100%;
   background-color: #fcfcfc;
   color: #33475b;
@@ -455,9 +457,6 @@ color: #fe775a;
 .sct7m .col60 .col25:nth-of-type(1n+2){
  padding-left: 20px;
 }
-.sct7m .col60 .col25{
-  height: 100px;
-}
 .sct7m .col60 .col25 img{
   display: block;
   max-width: 100%;
@@ -466,3 +465,39 @@ color: #fe775a;
 .sct7m .col60 .col25 .special_img{
   margin-top: 8px;
 }
+/* sct7 bottom_row */
+.sct7m .bottom_row{
+  margin-top: 50px;
+}
+.sct7m .bottom_row .col40 h2{
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.sct7m .bottom_row .col40 p{
+  margin-top: 30px;
+  font-size: 15px;
+  line-height: 2;
+}
+.sct7m .bottom_row .col40 .orange_btn{
+  margin-top: 30px;
+  padding: 20px 35px;
+}
+.sct7m .bottom_row .col40 a{
+  text-decoration: none;
+  color: white;
+}
+.sct7m .bottom_row .col40 .closing_line{
+  font-size: 12px;
+  margin-top: 40px;
+}
+/* /bottom_row col40 */
+/* bottom row col60 */
+.sct7m .bottom_row .col60{
+  height: 330px;
+  background-image: url(../img/woman.webp);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/* /SECTION 7 */
+/* /MAIN */
