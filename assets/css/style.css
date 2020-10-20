@@ -75,6 +75,38 @@ body{
 }
 /* /UTILITY */
 
+/* BUTTON */
+.orange_btn{
+  display: inline-block;
+  background-color: #fe775a;
+  border: 1px solid #fe775a;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none !important;
+  color: white !important;
+}
+.white_btn{
+  display: inline-block;
+  background-color: white;
+  border: 1px solid #fe775a;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none !important;
+  color: #fe775a !important;
+}
+.blue_btn{
+  display: inline-block;
+  color: #32495b;
+  background-color: #dadee0;
+  border: 1px solid #dadee0;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none !important;
+  color: white !important;
+}
+/* /BUTTON */
+
+
 /* HEADER */
 header{
   font-size: 15px;
@@ -111,27 +143,10 @@ header{
 /* /LEFT MENU */
 
 /* RIGHT MENU */
-.orange_btn{
-  display: inline-block;
-  background-color: #fe775a;
-  border: 1px solid #fe775a;
-  padding: 10px;
-  border-radius: 4px;
-  text-decoration: none !important;
-  color: white !important;
-}
-.white_btn{
-  display: inline-block;
-  background-color: white;
-  border: 1px solid #fe775a;
-  padding: 10px;
-  border-radius: 4px;
-  text-decoration: none !important;
-  color: #fe775a !important;
-}
 #lent_icon{
   color: #00b9a9;
 }
+
 .sct1h .right_menu{
   text-align: right;
 }
@@ -501,3 +516,44 @@ color: #fe775a;
 }
 /* /SECTION 7 */
 /* /MAIN */
+
+/* FOOTER */
+footer{
+  height: 580px;
+  background-color: #32495b;
+  color: #dadee0;
+}
+footer .container{
+  padding: 30px 0 40px 0;
+}
+footer ul li{
+  list-style: none;
+}
+footer ul li a{
+  text-decoration: none;
+  color: #dadee0;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+footer ul li a.title{
+  font-weight: bold;
+  padding-bottom: 20px;
+  text-transform: capitalize;
+}
+footer ul li .blue_btn a{
+  color: #32495b;
+}
+/* sct1f more links */
+footer .sct1f{
+  width: 100%;
+}
+footer .sct1f ul{
+  display: block;
+}
+footer .sct1f ul li{
+  padding-bottom: 15px;
+}
+footer .sct1f .social li{
+  display: inline-block;
+  padding-right: 25px;
+}
