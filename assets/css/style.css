@@ -75,7 +75,7 @@ body{
 }
 /* /UTILITY */
 
-/* BUTTON */
+/* BUTTONs */
 .orange_btn{
   display: inline-block;
   background-color: #fe775a;
@@ -104,7 +104,7 @@ body{
   text-decoration: none !important;
   color: white !important;
 }
-/* /BUTTON */
+/* /BUTTONs */
 
 
 /* HEADER */
@@ -124,11 +124,14 @@ header{
 }
 
 /* LEFT MENU */
-.sct1h .left_menu, .sct1h .right_menu{
-  margin-top: calc((80px - 15px)/2);
+.sct1h .left_menu{
+  margin-top: calc((80px - 15px) / 2);
 }
 .sct1h .left_menu span{
-  margin-right: 30px;
+  margin-right: 20px;
+}
+.sct1h .left_menu span i, .sct1h .left_menu span a:first-of-type{
+  padding-right: 10px;
 }
 .sct1h .left_menu:first-child{
   margin-left: 0 !important;
@@ -146,8 +149,8 @@ header{
 #lent_icon{
   color: #00b9a9;
 }
-
 .sct1h .right_menu{
+  margin-top: calc((80px - 15px - 22px) / 2);
   text-align: right;
 }
 .sct1h .right_menu span{
@@ -314,7 +317,7 @@ header{
   border-bottom: none;
   margin-bottom: 5px;
 }
-.sct4m .right_box i, .sct4m .right_box label{
+.sct4m .right_box i, .sct4m .right_box span{
   display: inline-block;
   margin-top: 30px;
   margin-right: 20px;
@@ -519,7 +522,7 @@ color: #fe775a;
 
 /* FOOTER */
 footer{
-  height: 580px;
+  height: 500px;
   background-color: #32495b;
   color: #dadee0;
 }
@@ -556,4 +559,30 @@ footer .sct1f ul li{
 footer .sct1f .social li{
   display: inline-block;
   padding-right: 25px;
+}
+/* /sct1f more links */
+/* sct2f contacts */
+footer .sct2f{
+  width: 100%;
+}
+footer ul{
+  display: block;
+  margin-bottom: 20px;
+  text-align: center;
+}
+footer .sct2f ul li{
+  display: inline-block;
+  padding-right: 25px;
+  list-style: none;
+}
+footer .sct2f ul li a{
+  text-decoration: none;
+  color: #dadee0;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+footer hr{
+  border-top: 1px solid #dadee0;
+  border-bottom: 0;
+  margin-bottom: 20px;
 }
