@@ -14,7 +14,7 @@ body{
   width: 25%;
 }
 .col33{
-  width: 33.33%;
+  width: 30%;
 }
 .col40{
   width: 40%;
@@ -341,6 +341,10 @@ color: #fe775a;
   margin-bottom: 50px;
   text-align: center;
   padding: 25px;
+}
+.sct5m .col33:nth-of-type(even){
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .sct5m .img_box{
   height: 120px;
