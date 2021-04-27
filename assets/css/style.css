@@ -8,7 +8,7 @@ a{
 }
 body{
   font-family: 'Roboto', sans-serif;
-  min-width: 1400px;
+  min-width: 1170px;
 }
 .col25{
   width: 25%;
@@ -85,6 +85,10 @@ body{
   text-decoration: none !important;
   color: white !important;
 }
+.orange_btn:hover{
+  cursor: pointer;
+  background-color: #ce624a;
+}
 .white_btn{
   display: inline-block;
   background-color: white;
@@ -93,6 +97,10 @@ body{
   border-radius: 4px;
   text-decoration: none !important;
   color: #fe775a !important;
+}
+.white_btn:hover{
+  cursor: pointer;
+  background-color: #f7f7f7;
 }
 .blue_btn{
   display: inline-block;
@@ -103,6 +111,10 @@ body{
   border-radius: 4px;
   text-decoration: none !important;
   color: white !important;
+}
+.blue_btn:hover{
+  cursor: pointer;
+  background-color: #c8cbcc;
 }
 /* /BUTTONs */
 
@@ -193,9 +205,13 @@ header{
 /* MAIN */
 /* SECTION 1 */
 .sct1m{
-  font-size: 15px;
   height: 695px;
-  background-color: #fdf4ee;
+  font-size: 15px;
+  background: linear-gradient(0.25turn, #fdf4ee, #fff0ee);
+}
+.sct1m .jumbotron{
+  width: 100%;
+  height: inherit;
   background-image: url(../img/jumbotron.png);
   background-size: calc(1429px * 0.8);
   background-repeat: no-repeat;
@@ -228,7 +244,7 @@ header{
 
 /* SECTION 2 */
 .sct2m{
-  height: 80px;
+  min-height: 80px;
   background-color: #afebe4;
   border-top: 2px solid #33475b;
   border-bottom: 2px solid #33475b;
@@ -236,9 +252,8 @@ header{
 /* /SECTION 2 */
 
 /* SECTION 3 */
-.box_style{}
 .sct3m{
-  height: 420px;
+  min-height: 420px;
   background-color: #f4f9fd;
   text-align: center;
   color: #33475b;
@@ -264,7 +279,7 @@ header{
 
 /* SECTION 4 */
 .sct4m{
-  height: 320px;
+  min-height: 320px;
   color: #33475b;
   background-color: #f4f9fd;
 }
@@ -330,18 +345,20 @@ color: #fe775a;
 /* /SECTION 4 */
 /* SECTION 5 */
 .sct5m{
+  min-height: 700px;
   width: 100%;
-  height: 700px;
   background-color: #f4f9fd;
   color: #33475b;
+  padding: 50px 0;
 }
 .sct5m .col33{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
   background-color: white;
-  height: 100%;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  text-align: center;
-  padding: 25px;
+  height: 720px;
 }
 .sct5m .col33:nth-of-type(even){
   margin-left: 5%;
@@ -356,17 +373,13 @@ color: #fe775a;
 }
 .sct5m hr{
   border-top: 1px solid;
+  width: 80%;
   border-bottom: 0;
-  margin-top: 40px;
 }
 .sct5m .capital{
   font-size: 20px;
   text-transform: uppercase;
-  margin-top: 30px;
   font-weight: bold;
-}
-.sct5m ul{
-  margin-top: 30px;
 }
 .sct5m ul li{
   list-style-type: none;
@@ -376,14 +389,11 @@ color: #fe775a;
   color: #f5775a;
   margin-right: 10px;
 }
-.sct5m .orange_btn{
-  margin-top: 50px;
-}
 /* /SECTION 5 */
 /* SECTION 6 */
 .sct6m{
+  min-height: 650px;
   width: 100%;
-  height: 700px;
   background-color: #00acb6;
   color: white;
 }
@@ -448,10 +458,11 @@ color: #fe775a;
 
 /* SECTION 7 */
 .sct7m{
-  height: 700px;
+  min-height: 700px;
   width: 100%;
   background-color: #fcfcfc;
   color: #33475b;
+  padding: 50px 0;
 }
 .sct7m .top_row{
   width: 100%;
@@ -459,7 +470,6 @@ color: #fe775a;
 }
 .sct7m .top_row .col40{
   height: 100%;
-  margin-top: 50px;
 }
 .sct7m .top_row h2, .sct7m .top_row p{
   padding-left: 60px;
@@ -475,7 +485,6 @@ color: #fe775a;
 }
 .sct7m .top_row .col60{
   height: 100%;
-  margin-top: 50px;
 }
 .sct7m .col60 .col25:nth-of-type(1n+2){
  padding-left: 20px;
@@ -527,7 +536,7 @@ color: #fe775a;
 
 /* FOOTER */
 footer{
-  height: 500px;
+  min-height: 500px;
   background-color: #32495b;
   color: #dadee0;
 }
